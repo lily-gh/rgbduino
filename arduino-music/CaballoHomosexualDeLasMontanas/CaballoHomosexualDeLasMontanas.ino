@@ -11,27 +11,30 @@ int tempo = 120;
 // On RGBduino Uno, pin 8 is used for the built-in buzzer. Change this if using another board
 int buzzer = 8;
 
-// notes of the moledy followed by the duration.
-// a 4 means a quarter note, 8 an eighteenth , 16 sixteenth, so on
-// !!negative numbers are used to represent dotted notes,
+// Notes of the melody followed by the duration.
+// a 4 means a quarter note, 8 an eighteenth , 16 sixteenth, so on.
+// Negative numbers are used to represent dotted notes,
 // so -4 means a dotted quarter note, that is, a quarter plus an eighteenth!!
 int melody[] = {
   // chorus
-  // NOTE_A4,8, NOTE_F5,8, NOTE_E5,8, NOTE_D5,8, NOTE_E5,8, NOTE_F5,4,
-  // NOTE_E5,8, NOTE_D5,4, NOTE_C5,4, NOTE_F5,8, NOTE_E5,2, REST, 4,
+  // caballo homosexual de las montanas
+  NOTE_A4,8, NOTE_F5,8, NOTE_E5,8, NOTE_D5,8, NOTE_E5,8, NOTE_F5,4,
+  NOTE_E5,8, NOTE_D5,4, NOTE_C5,4, NOTE_F5,8, NOTE_E5,2, REST, 5,
 
-  // NOTE_D5,2, NOTE_C5,2, NOTE_D5,2, REST, 4,
-  
-  // NOTE_A4,8, NOTE_F5,8, NOTE_E5,8, NOTE_D5,8, NOTE_E5,8, NOTE_F5,4,
-  // NOTE_E5,8, NOTE_D5,4, NOTE_C5,4, NOTE_F5,8, NOTE_E5,2, REST, 4,
+  // ohhh ohhh ohhh
+  NOTE_D5,2, NOTE_C5,2, NOTE_D5,2, REST, 4,
 
-  // NOTE_F5,4, NOTE_E5,8, NOTE_F5,4, NOTE_E5,8, NOTE_D5,4, NOTE_C5,8, NOTE_D5,3,
-  // repeat the same thing for real song, maybe too long for arduino silly project?
+  // caballo homosexual de las montanas
+  NOTE_A4,8, NOTE_F5,8, NOTE_E5,8, NOTE_D5,8, NOTE_E5,8, NOTE_F5,4,
+  NOTE_E5,8, NOTE_D5,4, NOTE_C5,4, NOTE_F5,8, NOTE_E5,2, REST, 4,
+
+  // ningun animal se salva
+  NOTE_F5,4, NOTE_E5,8, NOTE_F5,4, NOTE_E5,8, NOTE_D5,4, NOTE_C5,8, NOTE_D5,3, REST, 4,
 
   // ending
   NOTE_F4,8, NOTE_F4,8, NOTE_F4,8,  NOTE_F5,8, NOTE_F5,4, NOTE_E5,4,
   NOTE_E4,8, NOTE_E4,8, NOTE_E4,8,  NOTE_F5,8, NOTE_F5,4, NOTE_E5,4,
-  NOTE_D5,2, NOTE_D5,2, NOTE_D5,4, NOTE_D5,8, NOTE_C5,4, NOTE_D5,2, // wip
+  NOTE_D5,2, NOTE_D5,3, NOTE_D5,4, NOTE_D5,8, NOTE_C5,4, NOTE_D5,2,
 };
 
 // sizeof gives the number of bytes, each int value is composed of two bytes (16 bits)
