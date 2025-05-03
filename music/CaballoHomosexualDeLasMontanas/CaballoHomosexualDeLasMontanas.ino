@@ -1,5 +1,5 @@
 /************************************
- * Caballo Homosexual De Las Montañas
+ * Caballo Homosexual De Las Montanas
  * Synthesia video: https://www.youtube.com/watch?v=HfInzjSm-jA
 ************************************/
 
